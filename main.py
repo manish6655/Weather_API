@@ -2,7 +2,6 @@ import requests
 import os
 from datetime import datetime
 
-# user_api = os.environ['current_weather_data']
 os.environ['current_weather_data'] = 'your_api_key_here'
 user_api = os.getenv('current_weather_data')
 location = input("Enter the city name: ")
